@@ -4,7 +4,7 @@
 void main()
 {
     int IsPrime=1,i,j;    /*定义素数初始化*/
-    for(i=2;i<101;i++)
+    for(i=2;i<=100;i++)
     {
         IsPrime=1;    /*强制初始化*/
         if(i==2)

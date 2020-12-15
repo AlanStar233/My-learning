@@ -5,7 +5,7 @@ void main()
 {
     char ch;
     printf("Please type your ch:");
-    scanf("%c",&ch);
+    scanf("%c",ch);
     if(ch>='A' && ch<='Z') printf("The letter is 'LETTER'!");
     else if(ch>='a' && ch<='z') printf("The letter is 'letter'!");
     else printf("Your input is not letter character!");

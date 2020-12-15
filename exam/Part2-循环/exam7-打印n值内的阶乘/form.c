@@ -3,7 +3,7 @@
 #include <stdio.h>
 void main()
 {
-    int n,result=0,single,i,j;
+    int n,result=0,single=1,i,j;
     printf("Please type n:");
     scanf("%d",&n);
     if(n>=3 && n<=10)
